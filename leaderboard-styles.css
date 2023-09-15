@@ -169,3 +169,9 @@
 .new-game-button:hover {
     background-color: #45a049; /* Darker green on hover */
 }
+/* Styles for the "New Game" button container */
+.new-game-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Add some top margin for spacing */
+}
