@@ -1,4 +1,11 @@
 /* Styles for the leaderboard page */
+.parent-container {
+  display: flex;
+  flex-direction: column; /* Stack containers vertically */
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+}
+
 
 /* Containers */
 .container {
