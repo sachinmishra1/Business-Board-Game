@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard</title>
+    <link rel="stylesheet" href="leaderboard-styles.css">
+</head>
+<body>
+    <!-- Container for Leaderboard -->
+    <div class="container">
+        <h1>Leaderboard</h1>
+        <table id="leaderboard">
+            <thead>
+                <tr>
+                    <th>Player Name</th>
+                    <th>Color</th>
+                    <th>Amount of Money</th>
+                </tr>
+            </thead>
+            <tbody id="leaderboardBody">
+                <!-- Player rows will be inserted here dynamically -->
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Container for Transaction -->
+    <div class="container">
+        <h2>Transaction</h2>
+        <div class="transaction-container">
+            <label for="sender">From:</label>
+            <select id="sender"></select>
+            <label for="receiver">To:</label>
+            <select id="receiver"></select>
+            <input type="number" id="amount" placeholder="Amount">
+            <button id="sendButton">Send</button>
+        </div>
+    </div>
+
+    <!-- Container for Transaction History -->
+    <div class="container">
+        <h2>Transaction History</h2>
+        <ul id="transactionHistory">
+            <!-- Transaction history items will be inserted here dynamically -->
+        </ul>
+    </div>
+
+    <!-- New Game Button -->
+    <button id="newGameButton" class="new-game-button">New Game</button>
+
+
+    <script src="script2.js"></script>
+</body>
+</html>
